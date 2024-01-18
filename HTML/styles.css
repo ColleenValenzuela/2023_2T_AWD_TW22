@@ -1,0 +1,49 @@
+body {
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease;
+    background-color: #fde5e5; /* Pastel pink background color */
+    color: #7f5b5b; /* Updated font color to #7f5b5b for better contrast */
+}
+
+.container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: auto; /* Center the container horizontally */
+}
+
+header {
+    background-color: #ff9d9d; /* Lighter pastel pink header background color */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff; /* White section background color */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+button {
+    padding: 10px;
+    background-color: #ffb6b6; /* Light pastel pink button background color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    border-radius: 4px; /* Rounded corners for the button */
+}
+
+button:hover {
+    background-color: #ff9999; /* Darker pastel pink on hover */
+}
+
+/* Add styling for the profile picture */
+header img {
+    border: 2px solid #ff9d9d; /* Lighter pastel pink border for the profile picture */
+    border-radius: 50%;
+}
